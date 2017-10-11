@@ -50,5 +50,8 @@ for t = m0+1:n
     end
     
 end
+% Remove isolate nodes;
+A_ba = remove0nodes(A_ba);
+
 
 toc;
