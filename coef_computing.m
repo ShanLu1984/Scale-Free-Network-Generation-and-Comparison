@@ -1,4 +1,4 @@
-function [ lambda alpha ] = coef_computing(A,B)
+function [ lambda,alpha,Deg] = coef_computing(A,B)
 
 Deg = sum(A,2);
 
@@ -17,7 +17,7 @@ for j = 1:sb
    L(:,i) = [];
 end
 
-[vec value] = eig(L);
+[vec, value] = eig(L);
 
 sn = size(vec,1);
 e_vec = vec;
