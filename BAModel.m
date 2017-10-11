@@ -1,20 +1,20 @@
-function A = BAModel(n,m0)
+function A_ba = BAModel(n,m0)
 
 disp('Generating a Barabasi-Albert Graph...')
 tic;
 
-A = zeros(n,n);
+A_ba = zeros(n,n);
 
 for i=1:m0-1
-    A(i,i+1)=1;
-    A(i+1,i)=1;
+    A_ba(i,i+1)=1;
+    A_ba(i+1,i)=1;
 end
-A(m0,1)=1;
-A(1,m0)=1;
+A_ba(m0,1)=1;
+A_ba(1,m0)=1;
 
 for t = m0+1:n
     ba_step = t;
-    Deg_temp = sum(A(1:t-1,:));
+    Deg_temp = sum(A_ba(1:t-1,:));
     
     P = Deg_temp./sum(Deg_temp);
     
@@ -33,7 +33,7 @@ for t = m0+1:n
             break;
             end
         end
-        while (A(t,node) >= 1)
+        while (A_ba(t,node) >= 1)
             rd = rand(1);
            % node=0;
     
@@ -45,8 +45,8 @@ for t = m0+1:n
             end
         end
         
-        A(t,node) = A(t,node)+1;
-        A(node,t) = A(t,node);
+        A_ba(t,node) = A_ba(t,node)+1;
+        A_ba(node,t) = A_ba(t,node);
     end
     
 end
