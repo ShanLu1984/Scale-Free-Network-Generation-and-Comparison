@@ -34,7 +34,7 @@ Molloy-Reed Model, Kalisky Model, Model A and Model B are used to graphs with di
   |-----------------|------------------------| ---------------------------|
   | Demo_graph_comp_diff_deg_dist.m   |  Generate and compare random graph with different degree distribution |  Figure  |
   | Demo_graph_comp_same_deg_dist.m   |  Generate and compare random graph with the same degree distribution  |  Figure  |
-  | Demo_heat_content_comp_theoretical_vs_RW   | Compare heat content from theoretical computing and from random walk simulation | Figure|
+  | Demo_heat_content_comp_theoretical_vs_RW.m   | Compare heat content from theoretical computing and from random walk simulation | Figure|
 
 ### Other functions:
   |  function       |    description               |  output                    |
