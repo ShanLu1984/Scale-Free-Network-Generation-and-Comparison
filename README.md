@@ -45,6 +45,6 @@ Molloy-Reed Model, Kalisky Model, Model A and Model B are used to graphs with di
 ## How to use:
 1. Put all the .m files in one folder.
 2. Open Matlab and change the path the the current folder.
-3. To test graph comparison with different degree distribution: type "Demo_graph_comp_diff_deg_dist" in Command Window or open file "Demo_graph_comp_diff_deg_dist.m" and click "Run" button on the top bar.
-4. To test graph comparison with the same degree distribution: type "Demo_graph_comp_same_deg_dist" in Command Window or open file "Demo_graph_comp_same_deg_dist.m" and click "Run" button on the top bar.
-5. To test heat content comparison from theoretical computing and from random walk simulation: type "Demo_heat_content_comp_theoretical_vs_RW" in Command Window or open file "Demo_heat_content_comp_theoretical_vs_RW.m" and click "Run" button on the top bar.
+3. To test graph comparison with different degree distribution: type `Demo_graph_comp_diff_deg_dist` in Command Window and press the enter key; or open file "Demo_graph_comp_diff_deg_dist.m" and click "Run" button on the top bar.
+4. To test graph comparison with the same degree distribution: type `Demo_graph_comp_same_deg_dist` in Command Window and press the enter key; or open file "Demo_graph_comp_same_deg_dist.m" and click "Run" button on the top bar.
+5. To test heat content comparison from theoretical computing and from random walk simulation: type `Demo_heat_content_comp_theoretical_vs_RW` in Command Window and press the enter key; or open file "Demo_heat_content_comp_theoretical_vs_RW.m" and click "Run" button on the top bar.
